@@ -32,3 +32,19 @@ for(let index in nombres){
     console.log(nombres[index]);
 }
 
+for(let nombre of nombres){
+    console.log(nombre);
+}
+
+let index = 0;
+while(index < nombres.length){
+    console.log(nombres[index]);
+    index++;
+}
+
+let i = 0;
+do {
+    console.log(nombres[i]);
+    i++;
+} while(i < nombres.length);
+
